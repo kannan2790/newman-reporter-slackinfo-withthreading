@@ -1,9 +1,9 @@
-# newman-reporter-slack
+# newman-reporter-slackinfo-withthreading
 
 A [newman](https://github.com/postmanlabs/newman) reporter for [slack](https://slack.com/)
 
 ## Installation
-    npm install newman-reporter-slack
+    npm install newman-reporter-slackinfo-withthreading
 
 ## Usage
 
@@ -15,6 +15,7 @@ export SLACK_WEBHOOK_URL='https://hooks.slack.com/services/xxx/yyy/zzzzzzzzzzzz'
 export SLACK_CHANNEL='#slack-channel'
 export TITLE='newman run title'
 export HEADER='newman run header'
+export THREAD='{thread_ts}'
 ```
 
 ### Run newman test with the reporter option `-r slack`

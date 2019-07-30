@@ -1,26 +1,24 @@
 {
-  "name": "newman-reporter-slackinfo",
-  "version": "1.1.18",
-  "description": "A newman reporter for slack",
+  "name": "newman-reporter-slackinfo-withthreading",
+  "version": "1.1.0",
+  "description": "A newman reporter for slack with threading",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Eddayy/newman-reporter-slack"
+    "url": "https://github.com/kannan2790/newman-reporter-slackinfo-withthreading"
   },
   "keywords": [
     "newman",
     "postman",
-    "slack"
+    "slack",
+    "thread"
   ],
-  "author": "edmundtay96@gmail.com",
+  "author": "kannan.sethuraman@outlook.com",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Eddayy/newman-reporter-slack/issues"
-  },
-  "homepage": "https://github.com/Eddayy/newman-reporter-slack#readme",
+  "homepage": "https://github.com/kannan2790/newman-reporter-slackinfo-withthreading",
   "dependencies": {
     "@slack/client": "^4.3.1",
     "markdown-table": "^1.1.2",
