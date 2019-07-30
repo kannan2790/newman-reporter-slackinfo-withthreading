@@ -1,0 +1,30 @@
+{
+  "name": "newman-reporter-slackinfo",
+  "version": "1.1.18",
+  "description": "A newman reporter for slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eddayy/newman-reporter-slack"
+  },
+  "keywords": [
+    "newman",
+    "postman",
+    "slack"
+  ],
+  "author": "edmundtay96@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eddayy/newman-reporter-slack/issues"
+  },
+  "homepage": "https://github.com/Eddayy/newman-reporter-slack#readme",
+  "dependencies": {
+    "@slack/client": "^4.3.1",
+    "markdown-table": "^1.1.2",
+    "pretty-bytes": "^5.2.0",
+    "pretty-ms": "^3.2.0"
+  }
+}
