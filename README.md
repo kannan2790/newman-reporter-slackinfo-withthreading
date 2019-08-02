@@ -1,9 +1,9 @@
-# newman-reporter-slackinfo-withthreading
+# newman-reporter-slackthread
 
 A [newman](https://github.com/postmanlabs/newman) reporter for [slack](https://slack.com/)
 
 ## Installation
-    npm install newman-reporter-slackinfo-withthreading
+    npm install newman-reporter-slackthread
 
 ## Usage
 
