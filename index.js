@@ -49,19 +49,32 @@ class SlackReporter {
 
             let table = markdowntable(data);
             let text = `${title}\n${backticks}${table}${backticks}`
-            let msg = {
+            let msg_thread = {
                 channel: channel,
                 text: text,
                 thread_ts:thread
             }
+            let msg = {
+                channel: channel,
+                text: text
+            }
 
             const webhook = new IncomingWebhook(webhookUrl);
+            if(!thread) {
             webhook.send(msg, (error, response) => {
                 if (error) {
                     return console.error(error.message);
                 }
                 console.log(response);
             });
+            }else {
+            webhook.send(msg_thread, (error, response) => {
+                if (error) {
+                    return console.error(error.message);
+                }
+                console.log(response);
+            });    
+            }
         });
     }
 }
